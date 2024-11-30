@@ -1,0 +1,73 @@
+.transReadContainer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    height: 100vh;
+
+  }
+  
+.transRowLabel{
+    font-weight: 410;
+    font-size: 14px;
+}
+.filterTransactionButton{
+    border: none;
+    padding:0px 5px 0px 5px;
+    background-color: #2f55d4;
+    border-radius: 5px;
+    color: white;
+    height: 28px;
+}
+.resetTransactionButton{
+    border: none;
+    padding:0px 5px 0px 5px;
+    background-color: #e43f52;
+    border-radius: 5px;
+    color: white;
+    height: 28px;
+
+}
+@media (max-width: 768px) {
+  .transactionTable {
+    overflow: scroll;
+  }
+  table {
+    font-size: 14px !important;
+  }
+ 
+}
+@media (max-width: 430px) {
+  .transactionTable {
+    overflow: scroll;
+  }
+  table {
+    font-size: 14px !important;
+  }
+ 
+}
+
+
+
+@media (max-width: 375px) {
+  .transactionTable {
+    overflow: scroll;
+  }
+
+  table {
+    font-size: 13px !important;
+    width: 100vh !important;
+
+  }
+}
+
+@media (max-width: 320px) {
+
+  .transactionTable {
+    overflow: scroll;
+  }
+
+  table {
+    font-size: 13px !important;
+    width: 100vh !important;
+  }
+
+}

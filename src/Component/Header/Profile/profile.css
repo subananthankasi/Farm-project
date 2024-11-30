@@ -1,0 +1,86 @@
+.profile-page{
+    background-color: #f8f9fa;
+    height: 100vh;
+    overflow-x: hidden;
+    /* white-space: nowrap; */
+}
+
+.profileimg{
+    width: 110px;
+    height: 110px;
+    /* justify-content: center !important;
+    display: flex; */
+    margin-left: 120px;
+}
+.profile .row .col .card .profileimg{
+    justify-content: center !important;
+    display: flex;
+}
+.form-profile{
+    font-weight: 450;
+    
+}
+.breadcrumb-item .activepro{
+    color: blue !important;
+}
+
+.profle_pg .email-profile{
+    display: flex;
+    flex-wrap: wrap !important;
+} 
+@media screen and (min-width: 620px) and (max-width: 770px) {
+    .profileimg {
+       display: flex;
+       margin-left: 250px !important;
+    }
+}
+@media screen and (min-width: 310px) and (max-width: 350px) {
+   /* .profile-add {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   } */
+   .profileimg {
+    display: flex;
+
+    width: 70px;
+    height: 70px;
+   
+   }
+   .profile-add {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+   
+
+    /* justify-content:space-evenly; */
+    /* font-size: 14px; */
+    /* flex-direction: row; */
+    /* white-space: wrap;  
+    margin-right: 50px; */
+           
+    
+   }
+   .profle_pg{
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+   }
+ .profle_pg  p .username{
+    margin-top: 50px !important;
+    color: red !important;
+    
+     }
+ .profile-add p .colon{
+    padding-left: 20px !important;
+ }  
+ .profile-add p .colons{
+    padding-left: 40px !important;
+
+ }  
+}
+
+ 
+  
+  

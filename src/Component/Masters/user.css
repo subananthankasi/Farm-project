@@ -1,0 +1,65 @@
+.user_Details {
+    background-color: #f8f9fa;
+    
+    /* border: 1px solid #f0f0f0 !important; */
+    border-radius: 4px;
+    height: 100vh;
+}
+.user_Details table {
+    border: 1px solid #f0f0f0 !important;
+}
+.user_Details table th{
+padding: 8px !important;
+vertical-align: middle;
+white-space: nowrap;
+}
+.user_Details table td { 
+padding: 6px !important;
+white-space: nowrap;
+
+}
+  /* Icons style........... */
+ .user_Details  .user_editicon   {
+ /* background-color: #02b6b31f !important; */
+ color: green;
+ }
+.user_Details  .user_editdelete  {
+    /* background-color: #f211361f !important;    */
+    color: red;
+
+}
+.user_Details .editDeleteIcons{
+    display:flex;
+    gap: 8px;
+}
+.user_Details .user_Headerbutton{
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+}
+ /* button style ..... */
+.user_Details button{
+    border-radius: 6px;
+    background-color: #2eca8b;
+    border: 1px solid #09e5ab;
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 450;
+}
+.user_Details h3{
+    white-space: nowrap;
+    }
+ .search input:focus{
+    outline: none;
+    border: 1px solid blue;
+ }
+ @media screen and (max-width:370px) {
+    .user_Details .user_Headerbutton h3 {
+    font-size: 14px !important;
+    }
+    .user_Details .user_Headerbutton button {
+        font-size: 12px !important;
+    }
+
+ }   

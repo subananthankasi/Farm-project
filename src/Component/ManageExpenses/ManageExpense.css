@@ -1,0 +1,258 @@
+.manageReadContainer {
+    padding: 20px;
+    background-color: hsl(210, 17%, 98%);
+    height: 100vh;
+  }
+  
+  .manageExpense {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+  .newManageExpenseButtons{
+    padding: 5px 7px 5px 7px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2eca8b;
+    color: white;
+    font-weight: 420;
+  }
+  .editManageIcon{
+    border: none;
+    color:green;
+    background-color: white;
+  }
+  .deleteManageIcon{
+    border: none;
+    color:red;
+    background-color: white;
+  }
+  .acceptDeleteButton{
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  .rejectDeleteButton{
+   border-radius: 5px;
+  }
+
+  /* tbody tr:hover button {
+  background-color:#ececec; 
+
+} */
+ /* tbody tr:hover .editManageIcon {
+  background-color:#ececec; 
+}
+tbody tr:hover .deleteManageIcon {
+  background-color:#ececec; 
+} */
+/* .manageCardBox{
+    padding: 20px 15px 25px 15px;
+} */
+.manageRowLabel{
+    font-weight: 410;
+    font-size: 13px;
+}
+.filterManageButtons{
+    border: none;
+    padding:0px 5px 0px 5px;
+    background-color: #2f55d4;
+    border-radius: 5px;
+    color: white;
+    font-weight: 420;
+    height: 32px;
+}
+.resetManageButtons{
+    border: none;
+    padding:0px 5px 0px 5px;
+    background-color: #e43f52;
+    border-radius: 5px;
+    color: white;
+    font-weight: 420;
+    height: 32px;
+}
+/* .downloadManageButtons{
+    border:none;
+    font-size: 20px;
+    background-color: white;
+    color:#2e2e91 ;
+
+} */
+ .downloadManageButtons{
+  border: none;
+  padding:0px 5px 0px 5px;
+  background-color: #2e2e91;
+  border-radius: 5px;
+  color: white;
+  font-weight: 420;
+  height: 32px;
+ }
+/* .xlManageButtons{
+    border:none;
+    font-size: 20px;
+    background-color: white;
+    color:#008042 ;
+
+} */
+.xlManageButtons{
+  border: none;
+  padding:0px 9px 0px 9px;
+  background-color: #008042;
+  border-radius: 5px;
+  color: white;
+  font-weight: 420;
+  height: 32px;
+
+}
+table th {
+  font-weight: 500;
+}
+
+.manageDialog {
+  position: absolute !important; 
+  top: 15% !important; 
+  left: 50% !important; 
+  transform: translateX(-50%) !important; 
+  max-height: 90vh; 
+  overflow-y: auto; 
+}
+
+.dialog-container {
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  transform: translateX(-50%); 
+  width: 80vw;
+  max-width: 600px;
+  height: auto;
+  padding: 1rem;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+/* For small devices */
+@media (max-width: 375px) {
+  .dialog-container {
+    width: 95vw;
+    max-height: 85vh; 
+  }
+}
+
+@media (max-width: 414px) {
+  .dialog-container {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 430px) {
+  .dialog-container {
+    width: 88vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .dialog-container {
+    width: 85vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dialog-container {
+    width:90vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  .dialog-container {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 430px) {
+  .manageTable {
+    overflow: scroll;
+  }
+
+  table {
+    font-size: 14px !important;
+    width: 100vh !important;
+
+  }
+  .manageDltDialog {
+    width: 75vw !important;
+  }
+  .manageH5{
+    font-size: 16px ;
+  }
+  .newManageExpenseButtons{
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2eca8b;
+    color: white;
+    font-weight: 400;
+  }
+}
+
+
+
+@media (max-width: 375px) {
+  .manageTable {
+    overflow: scroll;
+  }
+
+  table {
+    font-size: 13px !important;
+    width: 100vh !important;
+
+  }
+
+  .manageDltDialog {
+    width: 85vw !important;
+  }
+  .manageH5{
+    font-size: 15px ;
+  }
+  .newManageExpenseButtons{
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2eca8b;
+    color: white;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .manageTable {
+    overflow: scroll;
+  }
+
+  table {
+    font-size: 13px !important;
+    width: 100vh !important;
+  }
+
+
+  .manageDltDialog {
+    width: 95vw !important;
+  }
+  .manageH5{
+    font-size: 15px ;
+  }
+  .newManageExpenseButtons{
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2eca8b;
+    color: white;
+    font-weight: 400;
+  }
+}

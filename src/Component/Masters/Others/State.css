@@ -1,0 +1,208 @@
+.stateContainer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+
+.newStateButton {
+  padding: 5px 7px 5px 7px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2eca8b;
+  color: white;
+  font-weight: 420;
+}
+
+.editIcon {
+  border: none;
+  color: green;
+  background-color: white;
+}
+
+.deleteIcon {
+  border: none;
+  color: red;
+  background-color: white;
+}
+
+.acceptDeleteButton {
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.rejectDeleteButton {
+  border-radius: 5px;
+}
+
+/* tbody tr:hover .editIcon {
+  background-color: #ececec;
+}
+
+tbody tr:hover .deleteIcon {
+  background-color: #ececec;
+} */
+
+
+.stateDialog {
+  position: absolute !important; 
+  top: 15% !important; 
+  left: 50% !important; 
+  transform: translateX(-50%) !important; 
+  max-height: 90vh; 
+  overflow-y: auto; 
+}
+
+.dialog-container {
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  transform: translateX(-50%); 
+  width: 80vw;
+  max-width: 600px;
+  height: auto;
+  padding: 1rem;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+@media (max-width: 375px) {
+  .dialog-container {
+    width: 95vw;
+    max-height: 85vh; 
+  }
+}
+
+@media (max-width: 414px) {
+  .dialog-container {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 430px) {
+  .dialog-container {
+    width: 88vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .dialog-container {
+    width: 85vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dialog-container {
+    width:90vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  .dialog-container {
+    width: 90vw;
+  }
+}
+/* @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .stateContainer {
+    margin-right:180px; 
+  }
+}
+  @media only screen and (max-width: 1280px) and (min-width: 1280px) {
+  .stateContainer {
+    margin-right:34%; 
+  }
+  .stateDialog {
+    width: 45vw !important;
+    display: flex;
+    justify-content: start;
+  }
+}
+@media only screen and (max-width: 912px) and (min-width: 912px) {
+  .stateContainer {
+    margin-right: 65px; 
+  }
+} */
+@media (max-width: 768px) {
+  .stateDialog {
+    width: 45vw !important;
+  }
+  .stateDltDialog{
+    width: 55vw !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .stateTable {
+    overflow: scroll;
+  }
+
+  table {
+    font-size: 15px;
+  }
+
+  /* .stateGrpBtn {
+    display: flex;
+  } */
+
+  .stateDialog {
+    width: 75vw !important;
+  }
+  .stateDltDialog{
+    width: 75vw !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .stateTable {
+    overflow: scroll;
+  }
+
+  table {
+    font-size: 15px;
+  }
+
+  /* .stateGrpBtn {
+    display: flex;
+  } */
+
+  .stateDialog {
+    width: 75vw !important;
+  }
+  .stateDltDialog{
+    width: 85vw !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .stateTable {
+    overflow: auto;
+  }
+
+  table {
+    font-size: 13px !important;
+    width: 100vh;
+  }
+
+  /* .stateGrpBtn {
+    display: flex;
+  } */
+
+  .stateDialog {
+    width: 75vw !important;
+  }
+  .stateDltDialog{
+    width: 95vw !important;
+  } 
+  .newStateButton{
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2eca8b;
+    color: white;
+    font-weight: 400;
+  }
+
+}

@@ -1,0 +1,64 @@
+.expenses_Details {
+    background-color: #f8f9fa;
+    
+    /* border: 1px solid #f0f0f0 !important; */
+    border-radius: 4px;
+    height: 100vh;
+}
+.expenses_Details table {
+    border: 1px solid #f0f0f0 !important;
+}
+.expenses_Details table th{
+padding: 8px !important;
+vertical-align: middle;
+white-space: nowrap;
+justify-content: space-evenly;
+}
+.expenses_Details table td { 
+padding: 6px !important;
+white-space: nowrap;
+
+
+}
+  /* Icons style........... */
+ .expenses_Details  .expenses_editicon   {
+ /* background-color: #02b6b31f !important; */
+ color: green;
+ }
+.expenses_Details  .expenses_editdelete  {
+    /* background-color: #f211361f !important; */
+    color: red;
+
+}
+.expenses_Details .editDeleteIcons{
+    display:flex;
+    gap: 8px;
+}
+.expenses_Details .expenses_Headerbutton{
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+}
+ /* button style ..... */
+.expenses_Details button{
+    border-radius: 6px;
+    background-color: #2eca8b;
+    
+    border: 1px solid #09e5ab;
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 450;
+}
+.expenses_Details h3{
+    white-space: nowrap;
+    }
+ @media screen and (max-width:370px) {
+    .expenses_Details .expenses_Headerbutton h3 {
+    font-size: 14px !important;
+    }
+    .expenses_Details .expenses_Headerbutton button {
+        font-size: 12px !important;
+    }
+
+ }   

@@ -1,0 +1,65 @@
+.category_Details {
+    /* background-color: #fff; */
+    background-color: #f8f9fa;
+
+    /* border: 1px solid #f0f0f0 !important; */
+    border-radius: 4px;
+    height: 100vh;
+}
+.category_Details table {
+    border: 1px solid #f0f0f0 !important;
+}
+.category_Details table th{
+padding: 8px !important;
+vertical-align: middle;
+white-space: nowrap;
+justify-content: space-evenly;
+}
+.category_Details table td { 
+padding: 6px !important;
+white-space: nowrap;
+
+
+}
+  /* Icons style........... */
+ .category_Details  .category_editicon   {
+ /* background-color: #02b6b31f !important; */
+ color: green;
+ }
+.category_Details  .category_editdelete  {
+    /* background-color: #f211361f !important; */
+    color: red;
+
+}
+.category_Details .editDeleteIcons{
+    display:flex;
+    gap: 8px;
+}
+.category_Details .category_Headerbutton{
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+}
+ /* button style ..... */
+.category_Details button{
+    border-radius: 6px;
+    background-color: #2eca8b;
+    
+    border: 1px solid #09e5ab;
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 450;
+}
+.category_Details h3{
+    white-space: nowrap;
+    }
+ @media screen and (max-width:370px) {
+    .category_Details .category_Headerbutton h3 {
+    font-size: 14px !important;
+    }
+    .category_Details .category_Headerbutton button {
+        font-size: 12px !important;
+    }
+
+ }   

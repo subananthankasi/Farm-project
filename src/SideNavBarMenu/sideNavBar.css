@@ -1,0 +1,154 @@
+
+ 
+/* .side-navbar { */
+  /* width: 18%;
+  background-color: #343a40;
+  height: 100vh; 
+  padding: 10px; */
+  /* position: fixed;  */
+  /* top: 0;
+  left: 0;
+  overflow-y: auto;  */
+  /* text-wrap: nowrap; */
+  
+/* } */
+.side-navbar {
+  width: 15%;
+  /* background-color: #343a40; */
+  background-color: #1f2937;
+  height: 100vh;
+  padding: 10px;
+  position: fixed;  /* Fix the sidebar on the left */
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  text-wrap: nowrap;
+}
+::-webkit-scrollbar{
+  display: none; 
+}
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid #495057;
+    
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .sidebar-title {
+    margin-left: 10px;
+  }
+  
+  .sidebar-title span {
+    font-size: 18px;
+    font-weight:500;
+  }
+  
+  .sidebar-title p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .sidebar-menu {
+    padding-top: 20px;
+  }
+  
+  .nav-item {
+    padding: 10px 20px;
+    display: flex;
+    /* align-items: center; */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+
+  }
+  
+  .nav-item:hover {
+    /* background-color: #495057; */
+    /* color:#f8f9fa ; */
+  }
+  
+  .nav-icon {
+    margin-right: 15px;
+    /* opacity: 0.3; */
+}
+  
+  .nav-title {
+    font-size: 15px;
+    opacity: 1;
+
+  }
+  .nav-item:hover .nav-icon,
+.nav-item:hover .nav-title {
+  color: white !important;
+  
+}
+  .sub-nav-item{
+    margin-left: 20px;
+  }
+  .sub-nav{
+    margin-left: 30px;
+    text-decoration: none;
+  }
+  .main-content {
+    width:85% !important;
+    margin-left: 15%;
+    padding: 0;
+     /* height: 100vh; */
+  /* overflow-y: auto;  */
+
+ }
+ 
+   .link{
+    text-decoration: none ;
+  }
+  .title-cate{
+       margin-left: -5px;
+    font-size: 16px;
+}
+.icon-cate{
+  margin-left: -10px;
+}
+
+ 
+
+@media screen and (max-width:768px)  {
+  .side-navbar {
+      display: none;
+    }
+    .main-content{
+      width: 100% !important;
+      margin: 0;
+    }
+
+
+  }
+   /* @media screen and (max-width:425px)  {
+    .side-navbar {
+        display: block;
+        z-index: 10;
+      }
+      .main-content{
+        width: 100% !important;
+        margin: 50px;
+      }
+      .sub-nav{
+        margin-left: 1px  !important;
+        text-decoration: none;
+      }
+  
+  
+    }
+   
+ */
+
+
+
+
+  
+  

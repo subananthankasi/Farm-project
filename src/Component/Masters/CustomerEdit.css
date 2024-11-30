@@ -1,0 +1,32 @@
+.breadcrumb li a:hover{
+    color:blue !important;
+}
+.breadcrumb li a{
+    color: black !important;
+}
+.cusmEdit{
+    text-decoration: none;
+}
+.breadcrumb .breadcrumb-item .active{
+    color: blue !important;
+}
+.customerEditer{
+    background-color: #f8f9fa;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.customerUpdate{
+    background-color: #f8f9fa;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+/* @media screen and (max-width:750px) {
+    .customerEditer .breadcrumb{
+        display: flex !important;
+        text-wrap: nowrap !important;
+
+    }
+    
+} */
+

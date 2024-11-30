@@ -1,0 +1,79 @@
+.customer_Details {
+  background-color: #f8f9fa;
+  /* border: 1px solid #f0f0f0 !important; */
+  /* border-radius: 4px; */
+  height: 100vh;
+}
+.customer_Details table {
+  border: 1px solid #f0f0f0 !important;
+}
+.customer_Details table th {
+  padding: 8px !important;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.customer_Details table td {
+  padding: 6px !important;
+  white-space: nowrap;
+}
+/* Icons style........... */
+.customer_Details .customer_editicon {
+  /* background-color: #02b6b31f !important; */
+  color: green;
+}
+.customer_Details .customer_editdelete {
+  /* background-color: #f211361f !important; */
+  color: red;
+}
+.customer_Details .editDeleteIcons {
+  display: flex;
+  gap: 8px;
+}
+.customer_Details .customer_Headerbutton {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* button style ..... */
+.customer_Details button {
+  border-radius: 6px;
+  background-color: #2eca8b;
+  border: 1px solid #09e5ab;
+  color: white;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 450;
+}
+.customer_Details h3 {
+  white-space: nowrap;
+}
+/* .search input:active{
+    outline: none !important;
+    border: 1px solid blue !important;
+} */
+.search input:focus {
+  outline: none !important;
+  border: 1px solid blue !important;
+}
+@media screen and (max-width: 370px) {
+  .customer_Details .customer_Headerbutton h5 {
+    font-size: 14px !important;
+  }
+  .customer_Details .customer_Headerbutton button {
+    font-size: 12px !important;
+  }
+  .customer_Details .container-fluid {
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .customer_Details .table-responsive table thead tr th td {
+    width: 30px;
+  }
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  max-width: 500px !important;
+}

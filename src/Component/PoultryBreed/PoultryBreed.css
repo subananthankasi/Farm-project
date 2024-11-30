@@ -1,0 +1,216 @@
+
+.poultryBreedContainer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+     height: 100vh; 
+    overflow-y: scroll;
+  }
+  .PoultryName:hover{
+    color:darkblue;
+  }
+  .poultry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+  .newPoultryButton{
+    padding: 5px 7px 5px 7px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2eca8b;
+    color: white;
+    font-weight: 420;
+  }
+
+.poultryRowLabel{
+    font-weight: 410;
+    font-size: 14px;
+}
+.filterPoultryButton{
+    border: none;
+    padding:0px 5px 0px 5px;
+    background-color: #2f55d4;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    height: 32px; 
+  
+
+}
+.resetPoultryButton{
+    border: none;
+    padding:0px 5px 0px 5px;
+    background-color: #e43f52;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    height: 32px; 
+}
+.btn{
+  border: none;
+}
+
+/* .custom-accordion-item {
+    border-radius: 5px !important;
+    overflow: hidden;
+    
+}
+
+.custom-accordion-item .accordion-button {
+    border-radius: 5px !important;
+    
+}
+
+.custom-accordion-item .accordion-button:not(.collapsed) {
+
+    background-color: #eaeefb;
+    color: #2f55db; 
+}
+
+.custom-accordion-item .accordion-button::after {
+    display: none;
+}
+.accordion{
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+} */
+.btn-action-edit {
+    background-color: white;
+    color: green;
+    border: none;
+    font-size: 17px;
+}
+
+.btn-action-delete {
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 17px;
+}
+
+.btn-action-view {
+    background-color: white;
+    color: blue;
+    border: none;
+    font-size: 17px;
+}
+
+.btn-action-excel {
+    background-color: white;
+    color: green;
+    border: none;
+    font-size: 17px;
+}
+
+/* active styles*/
+/* .accordion-button:not(.collapsed) .btn-action-edit {
+    background-color: #eaeefb;
+    color: #008039;
+}
+
+.accordion-button:not(.collapsed) .btn-action-delete {
+    background-color: #eaeefb;
+    color:#ff0000;
+}
+
+.accordion-button:not(.collapsed) .btn-action-view {
+    background-color: #eaeefb;
+    color: #1c24c1;
+}
+
+.accordion-button:not(.collapsed) .btn-action-excel {
+    background-color: #eaeefb;
+    color: #008000;
+} */
+
+
+@media (max-width: 768px) {
+    .stateDialog {
+      width: 45vw !important;
+    }
+    .stateDltDialog{
+      width: 55vw !important;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .stateTable {
+      overflow: scroll;
+    }
+  
+    table {
+      font-size: 15px;
+    }
+  
+    .stateGrpBtn {
+      display: flex;
+    }
+  
+    .stateDialog {
+      width: 75vw !important;
+    }
+    .stateDltDialog{
+      width: 75vw !important;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .stateTable {
+      overflow: scroll;
+    }
+  
+    table {
+      font-size: 15px;
+    }
+  
+    .stateGrpBtn {
+      display: flex;
+    }
+  
+    .stateDialog {
+      width: 75vw !important;
+    }
+    .stateDltDialog{
+      width: 85vw !important;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    h5{
+      font-size: 15px ;
+    }
+    .newPoultryButton{
+        font-size: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #2eca8b;
+        color: white;
+        font-weight: 420;
+      }
+    .poultryBreedTable {
+      overflow:scroll;
+    }
+  
+    table {
+      font-size: 15px;
+    }
+  
+    .stateGrpBtn {
+      display: flex;
+    }
+  
+    .stateDialog {
+      width: 75vw !important;
+    }
+    .stateDltDialog{
+      width: 95vw !important;
+    }
+  }

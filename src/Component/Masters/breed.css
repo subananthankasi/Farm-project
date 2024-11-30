@@ -1,0 +1,65 @@
+.breed_Details {
+    /* background-color: #fff; */
+    background-color: #f8f9fa;
+
+    /* border: 1px solid #f0f0f0 !important; */
+    border-radius: 4px;
+    height: 100vh;
+}
+.breed_Details table {
+    border: 1px solid #f0f0f0 !important;
+}
+.breed_Details table th{
+padding: 8px !important;
+vertical-align: middle;
+white-space: nowrap;
+justify-content: space-evenly;
+}
+.breed_Details table td { 
+padding: 6px !important;
+white-space: nowrap;
+
+
+}
+  /* Icons style........... */
+ .breed_Details  .breed_editicon   {
+ /* background-color: #02b6b31f !important; */
+ color: green;
+ }
+.breed_Details  .breed_editdelete  {
+    /* background-color: #f211361f !important; */
+    color: red;
+
+}
+.breed_Details .editDeleteIcons{
+    display:flex;
+    gap: 8px;
+}
+.breed_Details .breed_Headerbutton{
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+}
+ /* button style ..... */
+.breed_Details button{
+    border-radius: 6px;
+    background-color: #2eca8b;
+    
+    border: 1px solid #09e5ab;
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 450;
+}
+.breed_Details h3{
+    white-space: nowrap;
+    }
+ @media screen and (max-width:370px) {
+    .breed_Details .breed_Headerbutton h3 {
+    font-size: 14px !important;
+    }
+    .breed_Details .breed_Headerbutton button {
+        font-size: 12px !important;
+    }
+
+ }   

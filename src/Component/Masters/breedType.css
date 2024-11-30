@@ -1,0 +1,66 @@
+.breedtype_Details {
+    /* background-color: #fff; */
+    background-color: #f8f9fa;
+
+    /* border: 1px solid #f0f0f0 !important; */
+    border-radius: 4px;
+    height: 100vh;
+    width: 100%;
+}
+.breedtype_Details table {
+    border: 1px solid #f0f0f0 !important;
+}
+.breedtype_Details table th{
+padding: 8px !important;
+vertical-align: middle;
+white-space: nowrap;
+justify-content: space-evenly;
+}
+.breedtype_Details table td { 
+padding: 6px !important;
+white-space: nowrap;
+
+
+}
+  /* Icons style........... */
+ .breedtype_Details  .breedtype_editicon   {
+ /* background-color: #02b6b31f !important; */
+ color: green;
+ }
+.breedtype_Details  .breedtype_editdelete  {
+    /* background-color: #f211361f !important; */
+    color: red;
+
+}
+.breedtype_Details .editDeleteIcons{
+    display:flex;
+    gap: 8px;
+}
+.breedtype_Details .breedtype_Headerbutton{
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+}
+ /* button style ..... */
+.breedtype_Details button{
+    border-radius: 6px;
+    background-color: #2eca8b;
+    
+    border: 1px solid #09e5ab;
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 450;
+}
+.breedtype_Details h3{
+    white-space: nowrap;
+    }
+ @media screen and (max-width:370px) {
+    .breedtype_Details .breedtype_Headerbutton h3 {
+    font-size: 14px !important;
+    }
+    .breedtype_Details .breedtype_Headerbutton button {
+        font-size: 12px !important;
+    }
+
+ }   
